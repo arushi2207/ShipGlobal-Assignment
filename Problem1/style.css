@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.accordion-header {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
